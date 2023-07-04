@@ -1,0 +1,44 @@
+.weather {
+  border-style: solid;
+  max-width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+.weather-search {
+  margin: 20px 0;
+}
+.weather-search .search-input {
+  padding-right: 0;
+}
+.weather-search .submit {
+  padding: 0;
+}
+.weather h1 {
+  margin-bottom: 0;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  line-height: 1;
+  font-size: 28px;
+}
+.weather .details {
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 1;
+}
+.more-details span {
+  font-size: 42px;
+}
+.forecast {
+  color: rgba(0, 0, 0, 0.5);
+}
+.forecast .day {
+  margin-left: 6px;
+}
+.forecast img {
+  max-width: 40px;
+  margin-left: 0;
+}
+.forecast .temp {
+  margin-left: 6px;
+}
