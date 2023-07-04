@@ -25,16 +25,20 @@ export default function Weather() {
         <div className="details">Monday 15:52</div>
         <div className="details">Clear</div>
       </div>
-      <div className="row more-details mt-3">
+      <div className="row more-details">
         <div className="col-6">
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-            alt="sunny"
-          />
-          <span>35</span>°C
+          <div>
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+              alt="sunny"
+            />
+
+            <span className="temp">35</span>
+            <span className="unit">°C</span>
+          </div>
         </div>
         <div className="col-6">
-          <div className="details pt-3">Percipitation: 50%</div>
+          <div className="details mt-4">Percipitation: 50%</div>
           <div className="details">Wind: 11km/h</div>
         </div>
       </div>

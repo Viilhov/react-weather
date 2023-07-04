@@ -1,6 +1,6 @@
 .weather {
   border-style: solid;
-  max-width: 70%;
+  max-width: 600px;
   margin: auto;
   margin-top: 50px;
   border-color: rgba(0, 0, 0, 0.2);
@@ -25,9 +25,7 @@
   color: rgba(0, 0, 0, 0.5);
   line-height: 1;
 }
-.more-details span {
-  font-size: 42px;
-}
+
 .forecast {
   color: rgba(0, 0, 0, 0.5);
 }
@@ -38,6 +36,20 @@
   max-width: 40px;
   margin-left: 0;
 }
-.forecast .temp {
-  margin-left: 6px;
+.more-details .temp {
+  margin-left: 10px;
+  font-size: 64px;
+  font-weight: 500;
+}
+.more-details img {
+  height: 64px;
+  inset-inline: block;
+  position: relative;
+  top: -17px;
+}
+.more-details .unit {
+  font-size: 16px;
+  position: relative;
+  top: -33px;
+  color: rgba(0, 0, 0, 0.5);
 }
