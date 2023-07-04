@@ -5,10 +5,9 @@
   margin-top: 50px;
   border-color: rgba(0, 0, 0, 0.2);
   border-radius: 6px;
+  padding: 20px;
 }
-.weather-search {
-  margin: 20px 0;
-}
+
 .weather-search .search-input {
   padding-right: 0;
 }

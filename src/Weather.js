@@ -4,7 +4,7 @@ import "./Weather.css";
 export default function Weather() {
   return (
     <div className="weather shadow">
-      <form className="row mt-5 weather-search">
+      <form className="row mt-4 mb-2 weather-search">
         <div className="col-6 search-input">
           <input
             type="search"
@@ -20,12 +20,12 @@ export default function Weather() {
         </div>
       </form>
 
-      <div className="ms-3">
+      <div>
         <h1>Lisbon</h1>
         <div className="details">Monday 15:52</div>
         <div className="details">Clear</div>
       </div>
-      <div className="row more-details mt-3 ms-1">
+      <div className="row more-details mt-3">
         <div className="col-6">
           <img
             src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
