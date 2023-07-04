@@ -8,9 +8,7 @@ export default function App() {
         <Weather />
       </header>
       <footer>
-        <a href="https://github.com/Viilhov/react-weather" target="_blank">
-          Open-source code
-        </a>{" "}
+        <a href="https://github.com/Viilhov/react-weather">Open-source code</a>{" "}
         , by Viil Hov Fjøse
       </footer>
     </div>
