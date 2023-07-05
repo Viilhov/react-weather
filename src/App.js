@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Weather />
+        <Weather defaultCity="Bergen" />
       </header>
       <footer>
         <a href="https://github.com/Viilhov/react-weather">Open-source code</a>{" "}
