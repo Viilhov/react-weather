@@ -24,14 +24,14 @@ export default function Weather(props) {
             <input
               type="search"
               placeholder="Enter a city"
-              className="search-field form-control"
+              className="search-field form-control shadow-sm"
             />
           </div>
           <div className="col-3 submit">
             <input
               type="submit"
               value="Search"
-              className="btn btn-primary w-100"
+              className="btn btn-primary w-100 shadow"
             />
           </div>
         </form>
