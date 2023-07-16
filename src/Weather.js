@@ -15,7 +15,7 @@ export default function Weather(props) {
       condition: response.data.condition.description,
       humidity: response.data.temperature.humidity,
       wind: response.data.wind.speed,
-      icon: "https://ssl.gstatic.com/onebox/weather/64/sunny.png",
+      icon: `${response.data.condition.icon_url}`,
       date: new Date(response.data.time * 1000),
     });
   }
