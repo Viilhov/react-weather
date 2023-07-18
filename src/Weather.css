@@ -37,6 +37,9 @@
   max-width: 64px;
   margin-left: 0;
 }
+.more-details {
+  margin-bottom: 10px;
+}
 .more-details .temp {
   margin-left: 0;
   font-size: 64px;
