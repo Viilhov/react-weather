@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./WeatherForecast.css";
-import weatherForecastDay from "./weatherForecastDay";
+import WeatherForecastDay from "./WeatherForecastDay";
 import axios from "axios";
 
 export default function WeatherForecast(props) {
@@ -18,7 +18,7 @@ export default function WeatherForecast(props) {
       <div className="WeatherForecast">
         <div className="row">
           <div className="col">
-            <weatherForecastDay data={forecast[0]} />
+            <WeatherForecastDay data={forecast[0]} />
           </div>
         </div>
       </div>
